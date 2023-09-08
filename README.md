@@ -14,3 +14,6 @@
 - Netflix-GPT
     - Search bar
     - Movie suggestions
+
+
+# form libraries for form validations -> we can use formik library for that
