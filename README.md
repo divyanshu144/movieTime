@@ -1,7 +1,14 @@
 # Features
--Login/Signup
-    - signup/sign in form
-    - redirect to browse page
+- Header
+- Routing
+- Login/Signup
+- Form Validation
+- useRef Hook
+- Firebase setup
+- Deploying app to production
+- Authentication - sign in / sign up
+- Implement sign in user Api
+- created redux store with userSlice
 
 - Browse Page ( only comes after authntication)
     - Header
