@@ -9,6 +9,8 @@
 - Authentication - sign in / sign up
 - Implement sign in user Api
 - created redux store with userSlice
+- TMDB API
+- Get data from TMDB 
 
 - Browse Page ( only comes after authntication)
     - Header

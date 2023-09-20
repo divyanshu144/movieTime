@@ -5,6 +5,7 @@ import { createUserWithEmailAndPassword, signInWithEmailAndPassword, updateProfi
 import { auth } from '../utils/firebase';
 import { useDispatch } from 'react-redux';
 import { addUser } from '../utils/userSlice';
+import { User_Avatar, Bg_Image } from '../utils/constants';
 
 const Login = () => {
     
@@ -50,7 +51,7 @@ const Login = () => {
 
                     updateProfile(user, {
                         displayName: name.current.value , 
-                        photoURL: "https://avatars.githubusercontent.com/u/43488414?v=4"
+                        photoURL:  User_Avatar 
                       })
                       .then(() => {
                         // Profile updated!
@@ -109,7 +110,7 @@ const Login = () => {
     <div>
         <Header/>
         <div className="absolute">
-            <img src="https://assets.nflxext.com/ffe/siteui/vlv3/42df4e1f-bef6-499e-87ff-c990584de314/5e7c383c-1f88-4983-b4da-06e14c0984ba/IN-en-20230904-popsignuptwoweeks-perspective_alpha_website_large.jpg" 
+            <img src={Bg_Image}
                 alt="logo" />
         </div>
         {/* creating a login form */}
