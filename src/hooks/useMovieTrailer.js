@@ -13,7 +13,7 @@ const useMovieTrailer = (movieId) => {
             API_OPTIONS
           );
         const json = await data.json()
-        console.log(json);
+       // console.log(json);
     
         const filterTrailer = json.results.filter(video => video.type === "Trailer")
         // suppose if there is no trailer of a movie then we can take whatever the first video is there
